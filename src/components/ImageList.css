@@ -9,5 +9,5 @@
 }
 .imageCard {
   opacity: 0;
-  transition: opacity 0.66s ease;
+  transition: all 0.66s ease;
 }
