@@ -1,5 +1,4 @@
 import React from 'react';
-import App from './App';
 
 class SearchBar extends React.Component {
   state = { term: '' }
@@ -17,7 +16,7 @@ class SearchBar extends React.Component {
             <label>Image Search</label>
             <input 
               type="text" 
-              placeholder="enter keyword …"
+              placeholder="e  nter keyword …"
               onChange={e => this.setState({term: e.target.value})} />
           </div>
         </form>
